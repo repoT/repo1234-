@@ -11,7 +11,10 @@ printf("wybrano: %d\n",wybor);
 return wybor;
 }
 
+void menu() {
 
+printf("1.dodaj\n2.usun\n3.edytuj\n4.wyjdz\n");
+}
 
 int ChooseLang (char* opt) {
 	if (strcmp(opt,"en")==0) {
