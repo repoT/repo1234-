@@ -14,6 +14,4 @@ int ChooseLang (char* opt) {
 int main (int argc, char* argv[]) {
 	ChooseLang(argv[1]);
 
-	
-
 }
